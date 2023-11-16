@@ -6,41 +6,42 @@
       initial-scale=1.0">
      <title> LOGIN - CCM ZEBALLOS </title>
     <style>
-      /* Definindo estilos básicos para o corpo dfa página */
+      /* Definindo estilos básicos para o corpo da página */
 
       body {
         font-family: Arial;
         magin: 0;
-        padding: flex;
-        justify-content: center
+        padding: 0;
+        display: flex;
+        justify-content: center;
         align-items: center;
-        height: 100vh /* 100% da altura da viewport */
+        height: 100vh; /* 100% da altura da viewport */
         background-color: #f2f2f2; /* cor de fundo da página */
       }
 
 
      /*Estilos para o contêiner de login */
       .login-container {
-        background-color: #ffffff; /* coe de fundo so container */
-        border-radius: 8px
+        background-color: #ffffff; /* coer de fundo so container */
+        border-radius: 8px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*sombra suave */
         overflow: hidden;
         width: 300px;
         max-width: 100%;
-        text-aligh: center;
+        text-align: center;
         padding: 20px;
       }
       /* Estilos para a logo dentro do contêiner de login */
       .login-container img {
         width: 80px;
-        boder-radius:50%;
-        margin-bottom: 20px:
+        boder-radius: 50%;
+        margin-bottom: 20px;
       }
       /*Estilos para os campos de entrada (input) */
       .login-container input {
-        width:100%;
+        width: 100%;
         padding: 10px;
-        margin-bottom:15px;
+        margin-bottom: 15px;
         box-sizing: border-box;
         border: 1px solid #ccc; /* borda fina */
         border-radius: 4px;
@@ -48,29 +49,29 @@
       }
 
       /*Estilos parao botão de login */
-      .login-container button }
+      .login-container button {
       width: 100%;
-      padding: 1opx;
+      padding: 10px;
       background-color: #4caf50;
       color: white;
-      border:none;
+      border: none;
       border-radius: 4px;
       cursor: pointer;
       }
-      .login-container buton:hover {
+      .login-container button:hover {
         background-color: #45a049; /* cor de fundo mais escura do verde*/
       }
     </style>
   </head>
   <body>
     <!-- container principal do login -->
-    <div class+"login-container">
+    <div class="login-container">
       <!-- logo -->
       <img src="logoccm.png">
       <!-- criado o formulário -->
       <form>
         <input type="text" placeholder="Usuário" required>
-        <input type="password" placeholder="Senha"required>
+        <input type="password" placeholder="Senha" required>
         <button type="submit">ACESSAR SISTEMA </button>
       </form>
     </div>
